@@ -1,6 +1,6 @@
 ## Dictionary API
 
-Coding sample for Ignite Sales.
+Example Node API
 
 ### Running locally
 
