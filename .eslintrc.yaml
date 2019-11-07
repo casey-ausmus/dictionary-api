@@ -1,0 +1,21 @@
+extends: airbnb-base
+env:
+    node: yes
+    mocha: yes
+plugins:
+  - import
+rules:
+    quotes: 
+    - error
+    - double
+    comma-dangle: 
+    - error
+    - never
+    one-var:
+    - off
+    max-len:
+    - off
+    no-throw-literal:
+    - off
+    prefer-spread:
+    - off
