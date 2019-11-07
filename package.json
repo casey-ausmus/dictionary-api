@@ -1,0 +1,31 @@
+{
+  "name": "dictionary-api",
+  "author": "Casey Ausmus",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/eslint/bin/eslint.js . && jest --silent --coverage ./__tests__",
+    "lintfix": "./node_modules/eslint/bin/eslint.js --fix ."
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "data"
+    ]
+  },
+  "dependencies": {
+    "@hapi/joi": "^16.0.0-preview",
+    "body-parser": "^1.19.0",
+    "bunyan": "^1.8.12",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  }
+}
